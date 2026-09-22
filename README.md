@@ -96,6 +96,8 @@ npm run dev          # 监听 5173
 | --- | --- | --- |
 | 管理员 | admin@example.com | admin123 |
 
+> ⚠️ **安全提示**：以上为种子数据中的**本地开发初始账号**，正式部署前请务必在数据库中修改默认密码。
+
 ---
 
 ## 四、功能清单（25 个页面 / 70+ 接口）
@@ -395,3 +397,9 @@ cd /opt/ems/frontend && npm install && npm run build
 - 前端新增页面：views/ 建组件 → router/ 注册 → App.vue 导航组添加
 - 敏感操作必须写审计日志（logger.logToDb）
 - 密码/令牌一律不允许出现在日志与前端存储明文
+
+---
+
+## 十、开源许可
+
+本项目采用 [MIT License](LICENSE) 开源协议，欢迎学习、使用与二次开发。

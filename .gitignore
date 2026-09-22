@@ -1,0 +1,11 @@
+﻿# 部署临时目录
+.deploy_tmp/
+
+# 与本项目无关的文件
+OOP.py
+ScannerDemo.java
+
+# 调试脚本
+backend/fix*.ps1
+backend/regress.ps1
+backend/sim_login*.js
